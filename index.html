@@ -1,1 +1,36 @@
-Пукозвук
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>GIF на весь экран</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background: black;
+        }
+
+        /* Гифка на весь экран — без отступов, без прокрутки */
+        .fullscreen-gif {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;      /* покрывает весь экран, сохраняя пропорции (обрезает края) */
+            display: block;
+        }
+
+        /* Если нужна гифка без обрезания (показывать целиком с черными полосами) — замените cover на contain */
+        /* Альтернатива: object-fit: contain; — тогда будет видна вся картинка, но по бокам/сверху будут полосы */
+    </style>
+</head>
+<body>
+    <img class="fullscreen-gif" src="giphy.gif" alt="gif">
+</body>
+</html>
