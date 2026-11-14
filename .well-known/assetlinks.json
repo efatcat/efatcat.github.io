@@ -1,8 +1,0 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.efatcat.twa",
-        "sha256_cert_fingerprints": ["94:DE:A9:82:22:C3:F9:F7:C3:68:68:6A:B5:23:FB:EF:95:47:9B:44:0B:CE:97:DC:D8:E2:1D:D3:4E:7F:55:6C"]
-      }
-    }]
